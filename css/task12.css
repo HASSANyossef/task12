@@ -1,0 +1,107 @@
+.content{
+    width: 250px;
+    height: 350px;
+    margin: 40px auto;
+    background-color: blueviolet;
+    overflow: hidden;
+    position: relative;
+}
+
+.content img{
+    width: 100%;
+    height: 100%;
+    transition: 1s ;
+    -webkit-transition: 1s ;
+    -moz-transition: 1s ;
+    -ms-transition: 1s ;
+    -o-transition: 1s ;
+}
+
+.content img:hover{
+    transform: scale(1.2,1.2) ;
+    -webkit-transform: scale(1.2,1.2) ;
+    -moz-transform: scale(1.2,1.2) ;
+    -ms-transform: scale(1.2,1.2) ;
+    -o-transform: scale(1.2,1.2) ;
+}
+
+.content .box-up{
+    background-color: #f55f65;
+    border-radius: 5px;
+    position: absolute;
+    width: 60%;
+    height: 15%;
+    left: 20%;
+    top: -80px;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.content:hover .box-up{
+    transform: translatey(80px);
+    -webkit-transform: translatey(80px);
+    -moz-transform: translatey(80px);
+    -ms-transform: translatey(80px);
+    -o-transform: translatey(80px);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.fab {
+    color: white;
+    margin: 15px 10px;
+   
+}
+.content .box-down{
+    background-color:white;
+    border-radius: 5px;
+    position: absolute;
+    width: 80%;
+    height: 25%;
+    left: -150px;
+    bottom: 5%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+}
+.content:hover .box-down {
+    
+    transform: translatex(170px);
+    -webkit-transform: translatex(170px);
+    -moz-transform: translatex(170px);
+    -ms-transform: translatex(170px);
+    -o-transform: translatex(170px);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+
+.content .box-down h3,p{
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+}
+
+p{
+    color: #f44949;
+}
+
